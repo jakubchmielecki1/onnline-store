@@ -150,3 +150,28 @@
   align-items: center;
   flex-direction: column;
 }
+
+.newsletter-modal {
+  height: 300px;
+  width: 100%;
+  background-color: violet;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 15px;
+}
+
+.newsletter-modal__items {
+  margin-top: 15px;
+  height: 175px;
+  width: 100%;
+  background-color: lavender;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.news-item {
+  height: 175px;
+  width: 150px;
+  background-color: saddlebrown;
+}
