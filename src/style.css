@@ -167,7 +167,7 @@ a {
 .product-modal__items {
   width: 100%;
   height: 175px;
-  background-color: yellow;
+  background-color: rgba(239, 239, 243);
   display: flex;
   justify-content: space-between;
 }
@@ -176,6 +176,12 @@ a {
   height: 100%;
   width: 150px;
   background-color: pink;
+  transition: 0.25s ease;
+}
+
+.product-modal__item:hover {
+  scale: 1.15;
+  transition: 0.25s ease;
 }
 
 .categories-modal {
