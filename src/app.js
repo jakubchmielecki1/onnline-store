@@ -5,17 +5,15 @@ async function getData() {
     if (!response.ok) {
       throw new Error(`Response status: ${response.status}`);
     }
-
     const result = await response.json();
     const memes = result.data.memes;
-
     const productModalItem = document.querySelectorAll(".product-modal__item");
-    productModalItem.forEach((element, index) => {
-      if (memes[index]) {
+    productModalItem.forEach((element, id) => {
+      if (memes[id]) {
         const img = document.createElement("img");
-        img.src = memes[index].url;
-        img.style.width = "100%";
+        img.src = memes[id].url;
         img.style.height = "100%";
+        img.style.width = "100%";
         img.style.objectFit = "cover";
         element.appendChild(img);
       }
@@ -24,5 +22,4 @@ async function getData() {
     console.error(error.message);
   }
 }
-
 getData();
