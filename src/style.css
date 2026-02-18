@@ -159,7 +159,6 @@ a {
 .modal-desc {
   height: 20px;
   width: 300px;
-  margin-bottom: 15px;
   color: rgba(91, 105, 129);
   font-family: "Montserrat";
 }
@@ -187,17 +186,16 @@ a {
 .categories-modal {
   height: 150px;
   width: 100%;
-  background-color: cadetblue;
+  background-color: rgba(254, 254, 254);
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 15px;
-  padding-bottom: 10px;
 }
 
 .categories-modal__items {
   height: 100px;
   width: 100%;
-  background-color: beige;
+  background-color: rgba(254, 254, 254);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -206,7 +204,7 @@ a {
 .categories-modal__item {
   height: 75px;
   width: 125px;
-  background-color: violet;
+  background-color: rgba(240, 241, 245);
   display: flex;
   align-items: center;
   flex-direction: column;
