@@ -213,7 +213,7 @@ a {
 .newsletter-modal {
   height: 300px;
   width: 100%;
-  background-color: violet;
+  background-color: rgba(238, 239, 243);
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 15px;
@@ -229,8 +229,24 @@ a {
   justify-content: space-between;
 }
 
+.img-place {
+  height: 90px;
+  width: 90px;
+  background-color: rebeccapurple;
+}
+
+.img-place img {
+  height: 100%;
+  width: 100%;
+}
+
 .news-item {
   height: 175px;
   width: 150px;
   background-color: saddlebrown;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
 }
